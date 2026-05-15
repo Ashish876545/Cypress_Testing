@@ -35,7 +35,6 @@ describe('example to-do app', () => {
     cy.get('#last-name').type('dfgdgh')
     cy.get('#postal-code').type('221012')
     cy.get('#continue').click()
-    
     cy.get('#finish').click()
     cy.get('button[data-test="back-to-products"]').click()
     cy.get('button[id="react-burger-menu-btn"]').click()
